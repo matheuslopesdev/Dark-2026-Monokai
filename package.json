@@ -1,0 +1,43 @@
+{
+    "name": "dark-2026-monokai",
+    "displayName": "Dark 2026 Monokai",
+    "description": "The 2026 Dark workbench with Monokai syntax colors. VS Code's new chrome, classic Monokai code.",
+    "version": "1.0.0",
+    "publisher": "matheuslopesdev",
+    "license": "MIT",
+    "icon": "icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/matheuslopesdev/Dark-2026-Monokai.git"
+    },
+    "bugs": {
+        "url": "https://github.com/matheuslopesdev/Dark-2026-Monokai/issues"
+    },
+    "engines": {
+        "vscode": "^1.70.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "color-theme",
+        "dark",
+        "monokai",
+        "2026"
+    ],
+    "galleryBanner": {
+        "color": "#121314",
+        "theme": "dark"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "id": "Dark 2026 Monokai",
+                "label": "Dark 2026 Monokai",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark-2026-monokai.json"
+            }
+        ]
+    }
+}
